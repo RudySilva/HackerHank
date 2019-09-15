@@ -40,11 +40,9 @@ namespace HackerHank
                     Person.Execute();
                     break;
                 case "5":
-                    /*
                     Console.WriteLine("5 - Loops - Executing...");
                     Loops.Execute();
                     break;
-                    */
                 default:
                     break;
             }
