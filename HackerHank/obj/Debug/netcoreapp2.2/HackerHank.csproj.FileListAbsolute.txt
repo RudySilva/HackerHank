@@ -1,0 +1,11 @@
+D:\Projects\Hackerhank\HackerHank\bin\Debug\netcoreapp2.2\HackerHank.deps.json
+D:\Projects\Hackerhank\HackerHank\bin\Debug\netcoreapp2.2\HackerHank.runtimeconfig.json
+D:\Projects\Hackerhank\HackerHank\bin\Debug\netcoreapp2.2\HackerHank.runtimeconfig.dev.json
+D:\Projects\Hackerhank\HackerHank\bin\Debug\netcoreapp2.2\HackerHank.dll
+D:\Projects\Hackerhank\HackerHank\bin\Debug\netcoreapp2.2\HackerHank.pdb
+D:\Projects\Hackerhank\HackerHank\obj\Debug\netcoreapp2.2\HackerHank.csprojAssemblyReference.cache
+D:\Projects\Hackerhank\HackerHank\obj\Debug\netcoreapp2.2\HackerHank.csproj.CoreCompileInputs.cache
+D:\Projects\Hackerhank\HackerHank\obj\Debug\netcoreapp2.2\HackerHank.AssemblyInfoInputs.cache
+D:\Projects\Hackerhank\HackerHank\obj\Debug\netcoreapp2.2\HackerHank.AssemblyInfo.cs
+D:\Projects\Hackerhank\HackerHank\obj\Debug\netcoreapp2.2\HackerHank.dll
+D:\Projects\Hackerhank\HackerHank\obj\Debug\netcoreapp2.2\HackerHank.pdb
