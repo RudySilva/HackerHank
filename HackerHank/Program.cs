@@ -19,7 +19,7 @@ namespace HackerHank
             Console.WriteLine("5 - Loops;");
             Console.WriteLine("6 - Review;");
             Console.WriteLine("7 - Arrays;");
-
+            Console.WriteLine("8 - DictonariesMaps;");
             day = Console.ReadLine();
 
             switch (day)
@@ -56,6 +56,10 @@ namespace HackerHank
                 case "7":
                     Console.WriteLine("7 - Arrays - Executing...");
                     Arrays.Execute();
+                    break;
+                case "8":
+                    Console.WriteLine("8 - DictonariesMaps - Executing...");
+                    DictionariesMaps.Execute();
                     break;
                 default:
 
