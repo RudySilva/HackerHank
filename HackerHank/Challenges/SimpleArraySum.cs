@@ -7,13 +7,8 @@ namespace HackerHank
 {
     class SimpleArraySum
     {
-
-
-        /*
-         * Complete the simpleArraySum function below.
-         */
-
-         /*
+        
+         // Complete the simpleArraySum function below.
         static int simpleArraySum(int[] ar)
         {
             int sum = 0;
@@ -26,7 +21,7 @@ namespace HackerHank
 
         }
     
-        static void Main(string[] args)
+        public static void Execute()
         {
         
             //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
@@ -42,6 +37,6 @@ namespace HackerHank
             textWriter.Flush();
             textWriter.Close();
         }
-        */
+        
     }
 }

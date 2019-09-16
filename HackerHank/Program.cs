@@ -11,17 +11,22 @@ namespace HackerHank
             string day;
 
             Console.WriteLine("Type the number of challenge that you desire to execute:");
-            
+            Console.WriteLine("0 - SimpleArraySum ;");
             Console.WriteLine("1 - DataTypes;" );
             Console.WriteLine("2 - Operators;");
             Console.WriteLine("3 - Conditional;");
             Console.WriteLine("4 - ClassVsInstance;");
             Console.WriteLine("5 - Loops;");
+            Console.WriteLine("6 - Review;");
 
             day = Console.ReadLine();
 
             switch (day)
             {
+                case "0":
+                    Console.WriteLine("0 - SimpleArraySum - Executing...");
+                    DataTypes.Execute();
+                    break;
 
                 case "1":
                     Console.WriteLine("1 - DataTypes - Executing...");
@@ -42,6 +47,10 @@ namespace HackerHank
                 case "5":
                     Console.WriteLine("5 - Loops - Executing...");
                     Loops.Execute();
+                    break;
+                case "6":
+                    Console.WriteLine("6 - Review- Executing...");
+                    Review.Execute();
                     break;
                 default:
                     break;
