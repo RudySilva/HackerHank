@@ -18,6 +18,7 @@ namespace HackerHank
             Console.WriteLine("4 - ClassVsInstance;");
             Console.WriteLine("5 - Loops;");
             Console.WriteLine("6 - Review;");
+            Console.WriteLine("7 - Arrays;");
 
             day = Console.ReadLine();
 
@@ -49,10 +50,15 @@ namespace HackerHank
                     Loops.Execute();
                     break;
                 case "6":
-                    Console.WriteLine("6 - Review- Executing...");
+                    Console.WriteLine("6 - Review - Executing...");
                     Review.Execute();
                     break;
+                case "7":
+                    Console.WriteLine("7 - Arrays - Executing...");
+                    Arrays.Execute();
+                    break;
                 default:
+
                     break;
             }
 
