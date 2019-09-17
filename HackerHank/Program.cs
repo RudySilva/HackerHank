@@ -20,13 +20,14 @@ namespace HackerHank
             Console.WriteLine("6 - Review;");
             Console.WriteLine("7 - Arrays;");
             Console.WriteLine("8 - DictonariesMaps;");
+            Console.WriteLine("9 - Recursion;");
             day = Console.ReadLine();
 
             switch (day)
             {
                 case "0":
                     Console.WriteLine("0 - SimpleArraySum - Executing...");
-                    DataTypes.Execute();
+                    SimpleArraySum.Execute();
                     break;
 
                 case "1":
@@ -60,6 +61,10 @@ namespace HackerHank
                 case "8":
                     Console.WriteLine("8 - DictonariesMaps - Executing...");
                     DictionariesMaps.Execute();
+                    break;
+                case "9":
+                    Console.WriteLine("9 - Rercursion - Executing...");
+                    Recursion.Execute();
                     break;
                 default:
 
