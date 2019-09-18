@@ -21,6 +21,7 @@ namespace HackerHank
             Console.WriteLine("7 - Arrays;");
             Console.WriteLine("8 - DictonariesMaps;");
             Console.WriteLine("9 - Recursion;");
+            Console.WriteLine("10 - Binary Numbers;");
             day = Console.ReadLine();
 
             switch (day)
@@ -65,6 +66,10 @@ namespace HackerHank
                 case "9":
                     Console.WriteLine("9 - Rercursion - Executing...");
                     Recursion.Execute();
+                    break;
+                case "10":
+                    Console.WriteLine("10 - Binary Numbers- Executing...");
+                    BinaryNumbers.Execute();
                     break;
                 default:
 
