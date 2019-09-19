@@ -23,6 +23,7 @@ namespace HackerHank
             Console.WriteLine("9 - Recursion;");
             Console.WriteLine("10 - Binary Numbers;");
             Console.WriteLine("11 - 2D Arrays;");
+            Console.WriteLine("12 - Inheritance;");
             day = Console.ReadLine();
 
             switch (day)
@@ -46,7 +47,7 @@ namespace HackerHank
                     break;
                 case "4":
                     Console.WriteLine("4 - ClassVsInstance - Executing...");
-                    Person.Execute();
+                    ClassVsInstance.Execute();
                     break;
                 case "5":
                     Console.WriteLine("5 - Loops - Executing...");
@@ -69,12 +70,16 @@ namespace HackerHank
                     Recursion.Execute();
                     break;
                 case "10":
-                    Console.WriteLine("10 - Binary Numbers- Executing...");
+                    Console.WriteLine("10 - Binary Numbers - Executing...");
                     BinaryNumbers.Execute();
                     break;
                 case "11":
-                    Console.WriteLine("11 - 2D Arrays- Executing...");
+                    Console.WriteLine("11 - 2D Arrays - Executing...");
                     _2DArrays.Execute();
+                    break;
+                case "12":
+                    Console.WriteLine("12 - Inheritance - Executing...");
+                    Inheritance.Execute();
                     break;
                 default:
 

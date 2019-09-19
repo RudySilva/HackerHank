@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.IO;
 
-class Person
+class ClassVsInstance
 {
     public int age;
-    public Person(int initialAge)
+    public ClassVsInstance(int initialAge)
     {
         if (initialAge > 0)
             age = initialAge;
@@ -47,7 +47,7 @@ class Person
         for (int i = 0; i < T; i++)
         {
             int age = int.Parse(Console.In.ReadLine());
-            Person p = new Person(age);
+            ClassVsInstance p = new ClassVsInstance(age);
             
             p.amIOld();
             for (int j = 0; j < 3; j++)
