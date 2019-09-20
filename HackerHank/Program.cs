@@ -24,6 +24,7 @@ namespace HackerHank
             Console.WriteLine("10 - Binary Numbers;");
             Console.WriteLine("11 - 2D Arrays;");
             Console.WriteLine("12 - Inheritance;");
+            Console.WriteLine("13 - Abstract;");
             day = Console.ReadLine();
 
             switch (day)
@@ -80,6 +81,10 @@ namespace HackerHank
                 case "12":
                     Console.WriteLine("12 - Inheritance - Executing...");
                     Inheritance.Execute();
+                    break;
+                case "13":
+                    Console.WriteLine("13 - Abstract - Executing...");
+                    Abstract.Execute();
                     break;
                 default:
 
