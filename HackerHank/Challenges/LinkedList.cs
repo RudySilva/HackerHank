@@ -42,7 +42,6 @@ namespace HackerHank
 
         public static void Execute()
         {
-
             Node head = null;
             int T = Int32.Parse(Console.ReadLine());
             while (T-- > 0)

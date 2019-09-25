@@ -27,6 +27,7 @@ namespace HackerHank
             Console.WriteLine("13 - Abstract;");
             Console.WriteLine("14 - Scope;");
             Console.WriteLine("15 - Linked List;");
+            Console.WriteLine("16 - Exception - String to Integer;");
             day = Console.ReadLine();
 
             switch (day)
@@ -96,7 +97,10 @@ namespace HackerHank
                     Console.WriteLine("15 - Linked List...");
                     LinkedList.Execute();
                     break;
-
+                case "16":
+                    Console.WriteLine("16 - Exception - String to Integer...");
+                    ExceptionStringToInt.Execute();
+                    break;
                 default:
 
                     break;
