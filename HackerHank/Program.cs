@@ -26,6 +26,7 @@ namespace HackerHank
             Console.WriteLine("12 - Inheritance;");
             Console.WriteLine("13 - Abstract;");
             Console.WriteLine("14 - Scope;");
+            Console.WriteLine("15 - Linked List;");
             day = Console.ReadLine();
 
             switch (day)
@@ -91,7 +92,10 @@ namespace HackerHank
                     Console.WriteLine("14 - Scope - Executing...");
                     Scope.Execute();
                     break;
-
+                case "15":
+                    Console.WriteLine("15 - Linked List...");
+                    LinkedList.Execute();
+                    break;
 
                 default:
 
