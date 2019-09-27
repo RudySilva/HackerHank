@@ -6,40 +6,26 @@ namespace HackerHank
 {
     class QueuesStacks
     {
-
         Stack<Char> stack = new Stack<Char>();
         Queue<Char> queue = new Queue<Char>();
-        //string stack;
-        //string queue;
 
         void pushCharacter(char c)
         {
             stack.Push(c);
-            //stack += c;
-            //stack += c;
         }
 
         void enqueueCharacter(char c)
         {
             queue.Enqueue(c);
-            //queue += queue;
-            //queue = c + queue;
         }
         char popCharacter()
         {
             return stack.Pop();
-            //char c = Convert.ToChar(stack.Substring(stack.Length-1,1));
-            //stack = stack.Substring(1, stack.Length - 1);
-            //return c;
         }
 
         char dequeueCharacter()
         {
             return queue.Dequeue();
-
-            //char c = Convert.ToChar(queue.Substring(0, 1));
-            //queue = queue.Substring(1, queue.Length -1);
-            //return c;
         }
 
         public static void Execute()
