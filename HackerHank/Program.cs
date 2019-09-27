@@ -6,13 +6,13 @@ namespace HackerHank
 {
     class Program
     {
-        static void Main(String[] args)
+        static void Menu()
         {
             string day;
 
             Console.WriteLine("Type the number of challenge that you desire to execute:");
             Console.WriteLine("0 - SimpleArraySum;");
-            Console.WriteLine("1 - DataTypes;" );
+            Console.WriteLine("1 - DataTypes;");
             Console.WriteLine("2 - Operators;");
             Console.WriteLine("3 - Conditional;");
             Console.WriteLine("4 - ClassVsInstance;");
@@ -29,6 +29,7 @@ namespace HackerHank
             Console.WriteLine("15 - Linked List;");
             Console.WriteLine("16 - Exception - String to Integer;");
             Console.WriteLine("17 - More Exceptions;");
+            Console.WriteLine("18 - Queues and Stacks;");
             day = Console.ReadLine();
 
             switch (day)
@@ -95,23 +96,31 @@ namespace HackerHank
                     Scope.Execute();
                     break;
                 case "15":
-                    Console.WriteLine("15 - Linked List...");
+                    Console.WriteLine("15 - Linked List - Executing...");
                     LinkedList.Execute();
                     break;
                 case "16":
-                    Console.WriteLine("16 - Exception - String to Integer...");
+                    Console.WriteLine("16 - Exception - String to Integer - Executing...");
                     ExceptionStringToInt.Execute();
                     break;
                 case "17":
-                    Console.WriteLine("17 - More Exceptions...");
+                    Console.WriteLine("17 - More Exceptions - Executing...");
                     MoreExceptions.Execute();
+
+                    break;
+                case "18":
+                    Console.WriteLine("18 - Queues and Stacks - Executing... ");
+                    QueuesStacks.Execute();
                     break;
                 default:
+                    Menu();
 
                     break;
             }
-
-
+        }
+        static void Main(String[] args)
+        {
+            Menu();
         }
     }
 }
