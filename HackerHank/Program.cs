@@ -32,6 +32,7 @@ namespace HackerHank
             Console.WriteLine("18 - Queues and Stacks;");
             Console.WriteLine("19 - Interfaces;");
             Console.WriteLine("20 - Sorting;");
+            Console.WriteLine("21 - Generics;");
             day = Console.ReadLine();
 
             switch (day)
@@ -120,6 +121,10 @@ namespace HackerHank
                 case "20":
                     Console.WriteLine("20 - Sorting - Executing... ");
                     Sorting.Execute();
+                    break;
+                case "21":
+                    Console.WriteLine("21 - Generics - Executing... ");
+                    Generics.Execute();
                     break;
                 default:
                     Menu();
