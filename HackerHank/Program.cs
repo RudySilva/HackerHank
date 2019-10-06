@@ -33,6 +33,7 @@ namespace HackerHank
             Console.WriteLine("19 - Interfaces;");
             Console.WriteLine("20 - Sorting;");
             Console.WriteLine("21 - Generics;");
+            Console.WriteLine("22 - Binary Search Trees;");
             day = Console.ReadLine();
 
             switch (day)
@@ -125,6 +126,10 @@ namespace HackerHank
                 case "21":
                     Console.WriteLine("21 - Generics - Executing... ");
                     Generics.Execute();
+                    break;
+                case "22":
+                    Console.WriteLine("22 - Binary Search Trees - Executing... ");
+                    BinarySearchTrees.Execute();
                     break;
                 default:
                     Menu();

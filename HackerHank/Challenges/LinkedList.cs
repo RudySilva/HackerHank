@@ -5,11 +5,11 @@ using System.Text;
 namespace HackerHank
 {
 
-    class Node
+    class _Node
     {
         public int data;
-        public Node next;
-        public Node(int d)
+        public _Node next;
+        public _Node(int d)
         {
             data = d;
             next = null;
@@ -18,21 +18,21 @@ namespace HackerHank
     }
     class LinkedList
     {
-        public static Node insert(Node head, int data)
+        public static _Node insert(_Node head, int data)
         {
             if (head == null)
-                return new Node(data);
+                return new _Node(data);
             else if (head.next == null)
-                head.next = new Node(data);
+                head.next = new _Node(data);
             else
                 insert(head.next, data);
 
             return head;
         }
 
-        public static void display(Node head)
+        public static void display(_Node head)
         {
-            Node start = head;
+            _Node start = head;
             while (start != null)
             {
                 Console.Write(start.data + " ");
@@ -42,7 +42,7 @@ namespace HackerHank
 
         public static void Execute()
         {
-            Node head = null;
+            _Node head = null;
             int T = Int32.Parse(Console.ReadLine());
             while (T-- > 0)
             {
