@@ -34,6 +34,7 @@ namespace HackerHank
             Console.WriteLine("20 - Sorting;");
             Console.WriteLine("21 - Generics;");
             Console.WriteLine("22 - Binary Search Trees;");
+            Console.WriteLine("23 - BST-Level Order Traversal;");
             day = Console.ReadLine();
 
             switch (day)
@@ -130,6 +131,10 @@ namespace HackerHank
                 case "22":
                     Console.WriteLine("22 - Binary Search Trees - Executing... ");
                     BinarySearchTrees.Execute();
+                    break;
+                case "23":
+                    Console.WriteLine("23 - BST-Level Order Traversal - Executing... ");
+                    BSTLevelOrderTraversal.Execute();
                     break;
                 default:
                     Menu();
